@@ -8,9 +8,9 @@ public class PlayVideoInWebGL : MonoBehaviour
 
     public void Playvideo()
     {
-        Debug.Log("01");
+   
         VideoPlayer videoPlayer = GetComponent<VideoPlayer>();
-        Debug.Log("02");
+      
         if (videoPlayer)
         {
             string videoPath = System.IO.Path.Combine(Application.streamingAssetsPath,videoFileName);
